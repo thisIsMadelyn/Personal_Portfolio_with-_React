@@ -7,19 +7,34 @@ import Home from './Pages/Home.jsx';
 import About from './Pages/About.jsx';
 import Projects from './Pages/Projects.jsx';
 import Contact from './Pages/Contact.jsx';
+import Footer from './Components/footer/Footer.jsx';
+
+import bgImage from './assets/wallpaper.jpeg';
 
 
 function App() {
+
+    const appStyle ={
+        minHeight: '100vh',
+        backgroundImage: `url(${bgImage})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+    }
     return (
-        <BrowserRouter>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/contact" element={<Contact />} />
-            </Routes>
-        </BrowserRouter>
+        <div style={appStyle}>
+            <BrowserRouter>
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/projects" element={<Projects />} />
+                    <Route path="/contact" element={<Contact />} />
+                </Routes>
+                <Footer />
+            </BrowserRouter>
+        </div>
+
     );
 }
 

@@ -1,0 +1,19 @@
+/* Remove default margins/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full-page wallpaper */
+body, html, #root {
+    height: 100%;
+}
+
+body {
+    background-image: url('../assets/wallpaper.jpeg'); /* correct relative path */
+    background-size: cover;       /* stretch to fill viewport */
+    background-repeat: no-repeat; /* don’t repeat */
+    background-position: center;  /* center the image */
+    font-family: sans-serif;
+}
