@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1a1a1a;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.navbar-links {
+    display: flex;     /* <-- THIS is what aligns them horizontally */
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
