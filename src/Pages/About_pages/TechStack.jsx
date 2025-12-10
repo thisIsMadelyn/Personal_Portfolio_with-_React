@@ -1,17 +1,18 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import "./TechStack.css";
 
 // For techStack Icons
 
-import Javascript from "../assets/TechIcons/Javascript.svg";
-import Node from "../assets/TechIcons/Node.svg";
-import Spring from "../assets/TechIcons/Spring.svg";
-import Java from "../assets/TechIcons/Java.svg";
-import Git from "../assets/TechIcons/Git.svg";
-import Docker from "../assets/TechIcons/Docker.svg";
-import SQL from "../assets/TechIcons/SQL.svg";
-import Postman from "../assets/TechIcons/Postman.svg";
-import AWS from "../assets/TechIcons/AWS.svg";
+import Javascript from "../../assets/TechIcons/Javascript.svg";
+import Node from "../../assets/TechIcons/Node.svg";
+import Spring from "../../assets/TechIcons/Spring.svg";
+import Java from "../../assets/TechIcons/Java.svg";
+import Git from "../../assets/TechIcons/Git.svg";
+import Docker from "../../assets/TechIcons/Docker.svg";
+import SQL from "../../assets/TechIcons/SQL.svg";
+import Postman from "../../assets/TechIcons/Postman.svg";
+import AWS from "../../assets/TechIcons/AWS.svg";
 
 const TechStack = () => {
     return (

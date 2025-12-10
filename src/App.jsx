@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // We will create these next
 import Navbar from './Components/navbar/Navbar.jsx';
-import Home from './Pages/Home.jsx';
-import About from './Pages/About.jsx';
+import Home from './Pages/Home_pages/Home.jsx';
+import About from './Pages/About_pages/About.jsx';
 import Projects from './Pages/Projects.jsx';
 import Contact from './Pages/Contact.jsx';
 import Footer from './Components/footer/Footer.jsx';
