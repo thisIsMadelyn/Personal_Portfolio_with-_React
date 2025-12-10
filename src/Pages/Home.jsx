@@ -1,11 +1,41 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import "./Home.css";
 
 const Home = () => {
+    const [currentText, setCurrentText] = useState(0);
+
+    const phrases = [
+        "Back-end Developer",
+        "Front-end Developer",
+        "Java Enthusiast",
+        "Open Source Contributor"
+    ];
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentText((prev) => (prev + 1) % phrases.length);
+        }, 2500); // rotate every 2.5s
+        return () => clearInterval(interval);
+    }, []);
+
     return (
-        <div style={{ padding: "2rem" }}>
-            <p>This is the home page.</p>
-        </div>
+        <section className="home-container">
+            <div className="home-left">
+                <h1>Hi, I'm Madelyn</h1>
+                <h2 className="home-rotating">{phrases[currentText]}</h2>
+            </div>
+            <div className="hero-section">
+                <div className="hero-content">
+                    <h2>Let me introduce myself</h2>
+                    <p>
+                        🎓 I'm an Information & Electronic Systems Engineering student <br/>
+                        at the International Hellenic University, <br/>
+                        passionate about Software Engineering, technology, and continuous learning.
+                    </p>
+                </div>
+            </div>
+        </section>
     );
-}
+};
 
 export default Home;

@@ -15,5 +15,5 @@ body {
     background-size: cover;       /* stretch to fill viewport */
     background-repeat: no-repeat; /* don’t repeat */
     background-position: center;  /* center the image */
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
