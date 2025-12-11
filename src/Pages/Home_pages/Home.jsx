@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Row, Col } from "react-bootstrap";
 import "./Home.css";
-import myProfilepic from "../../assets/profilepic.jpg";
+import myProfilepic from "../../assets/cat.jpeg";
 
 const Home = () => {
     const [currentText, setCurrentText] = useState(0);

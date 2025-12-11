@@ -9,7 +9,7 @@ import Projects from './Pages/Projects.jsx';
 import Contact from './Pages/Contact.jsx';
 import Footer from './Components/footer/Footer.jsx';
 
-import bgImage from './assets/wallpaper.jpeg';
+import bgImage from './assets/wallpaper_two.jpeg';
 
 
 function App() {
