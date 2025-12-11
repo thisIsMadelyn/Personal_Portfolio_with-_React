@@ -16,7 +16,7 @@ import AWS from "../../assets/TechIcons/AWS.svg";
 
 const TechStack = () => {
     return (
-        <Row>
+        <Row className="techstack-row">
             <Col xs={4} md={2} className="tech-icons">
                 <img src={Javascript} alt="javascript" />
                 <div className="tech-icons-text">Javascript</div>
@@ -24,7 +24,7 @@ const TechStack = () => {
 
             <Col xs={4} md={2} className="tech-icons">
                 <img src={Spring} alt="spring" />
-                <div className="tech-icons-text"></div>
+                <div className="tech-icons-text">Spring</div>
             </Col>
 
             <Col xs={4} md={2} className="tech-icons">

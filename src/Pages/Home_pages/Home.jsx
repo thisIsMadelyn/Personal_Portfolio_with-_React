@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { Row, Col } from "react-bootstrap";
 import "./Home.css";
+import myProfilepic from "../../assets/profilepic.jpg";
 
 const Home = () => {
     const [currentText, setCurrentText] = useState(0);
@@ -20,10 +22,23 @@ const Home = () => {
 
     return (
         <section className="home-container">
-            <div className="home-left">
-                <h1>Hi, I'm Madelyn</h1>
-                <h2 className="home-rotating">{phrases[currentText]}</h2>
-            </div>
+
+            <Row className="the-row">
+                <Col className="home-left">
+                    <h1>Hi, I'm Madelyn</h1>
+                    <h2 className="home-rotating">{phrases[currentText]}</h2>
+                </Col>
+
+                <Col className="home-right">
+                    <img src={myProfilepic} alt="profilepic" style={{
+                        width: '300px',
+                        height: '300px',
+                        borderRadius: '50%',  /* Note the camelCase */
+                        objectFit: 'cover'    /* Note the camelCase */
+                    }}/>
+                </Col>
+            </Row>
+
             <div className="hero-section">
                 <div className="hero-content">
                     <h2>Let me introduce myself</h2>
