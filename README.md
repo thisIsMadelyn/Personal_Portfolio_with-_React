@@ -53,19 +53,19 @@ Installation
 Clone the repository:
 
 ```angular2html
-git clone [https://github.com/your-username/my-portfolio.git](https://github.com/your-username/my-portfolio.git)
+git clone [https://github.com/your-username/my-portfolio.git](https://github.com/thisIsMadelyn/Personal_Portfolio_with-_React.git)
 ```
 
 Navigate to the Project Directory:
 
 ```angular2html
-cd my-portfolio
+cd Personal_Portfolio_with-_React
 ```
 
 Install Dependencies: 
 
 ````angular2html
-npm install
+npm run dev
 ````
 
 Running Locally:
