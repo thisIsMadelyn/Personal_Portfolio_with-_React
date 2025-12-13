@@ -8,24 +8,6 @@
     color: white;
     text-align: center;
     gap: 0.5rem;
-    backdrop-filter: blur(5px); /* matches navbar */
 }
 
-.footer-links {
-    display: flex;
-    gap: 1.5rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-links a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.2s ease-in-out;
-}
-
-.footer-links a:hover {
-    color: #00c6ff;
-}
 

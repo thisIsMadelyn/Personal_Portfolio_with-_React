@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from "react";
-import { Row, Col } from "react-bootstrap";
 import "./Home.css";
-import myProfilepic from "../../assets/cat.jpeg";
+import { Row, Col } from "react-bootstrap";
+import "../../Styles/Globals.css"
+import linkedin from "../../assets/social/linkedin_2.svg";
+import github from "../../assets/social/github_2.svg";
 
 const Home = () => {
     const [currentText, setCurrentText] = useState(0);
 
     const phrases = [
-        "Back-end Developer",
-        "Front-end Developer",
-        "Java Enthusiast",
-        "Open Source Contributor"
+        "a Back-end Developer",
+        "a Front-end Developer",
+        "a Java Enthusiast",
+        "an Open Source Contributor"
     ];
 
     useEffect(() => {
@@ -23,31 +25,34 @@ const Home = () => {
     return (
         <section className="home-container">
 
-            <Row className="the-row">
-                <Col className="home-left">
-                    <h1>Hi, I'm Madelyn</h1>
-                    <h2 className="home-rotating">{phrases[currentText]}</h2>
-                </Col>
+            <div className="first-section">
+                <h1>Hi, I'm <span className="to-change-color"> Madelyn</span> </h1>
 
-                <Col className="home-right">
-                    <img src={myProfilepic} alt="profilepic" style={{
-                        width: '300px',
-                        height: '300px',
-                        borderRadius: '50%',  /* Note the camelCase */
-                        objectFit: 'cover'    /* Note the camelCase */
-                    }}/>
-                </Col>
-            </Row>
+                <h2 className="home-rotating">{phrases[currentText]}</h2>
+            </div>
+
 
             <div className="hero-section">
                 <div className="hero-content">
-                    <h2>Let me introduce myself</h2>
                     <p>
                         🎓 I'm an Information & Electronic Systems Engineering student <br/>
                         at the International Hellenic University, <br/>
                         passionate about Software Engineering, technology, and continuous learning.
                     </p>
                 </div>
+            </div>
+
+            <div >
+                <Row className="social">
+                    <Col>
+                        <a href="https://github.com/thisIsMadelyn"><img src={github} alt="Github Logo" className="social-icons"/></a>
+                    </Col>
+                    <Col>
+                        <a href="https://www.linkedin.com/in/madelyn2025"><img src={linkedin} alt="LinkedIn" className="social-icons"/></a>
+                    </Col>
+                </Row>
+
+
             </div>
         </section>
     );

@@ -11,9 +11,14 @@ body, html, #root {
 }
 
 body {
-    background-image: url('../assets/wallpaper_two.jpeg'); /* correct relative path */
+    background-image: url('../assets/wallpaper_3.jpg'); /* correct relative path */
     background-size: cover;       /* stretch to fill viewport */
     background-repeat: no-repeat; /* don’t repeat */
     background-position: center; /* center the image */
     font-family: 'Space Grotesk', sans-serif;
+}
+
+.to-change-color{
+    margin: 1rem;
+    color: rgb(145, 159, 195);
 }

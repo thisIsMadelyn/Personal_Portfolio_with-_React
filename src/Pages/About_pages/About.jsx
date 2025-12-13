@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutCard.css";
-import computer from "../../assets/computer.svg"
+import "./About.css"
 import AboutCard from "./AboutCard.jsx";
 import TechStack from "./TechStack.jsx";
 import {Row ,Col} from "react-bootstrap";
@@ -17,14 +17,12 @@ const About = () => {
                     </div>
                     <AboutCard />
                 </Col>
-                <Col className="svg-col">
-                    <img src={computer} alt="computer svg" className="picture"/>
-                </Col>
             </Row>
 
             <div className="techstack">
                 <div className="small-info">
                     <p>This is my <span className="to-change-color">TechStack</span> !</p>
+                    <br />
                 </div>
                 <br />
                 <TechStack />

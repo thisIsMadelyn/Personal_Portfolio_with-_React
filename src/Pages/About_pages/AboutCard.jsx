@@ -1,7 +1,6 @@
 import React from "react";
 import "./AboutCard.css";
 import Card from "react-bootstrap/Card";
-import { LuArrowBigRightDash } from "react-icons/lu";
 
 const AboutCard = () => {
 
@@ -22,21 +21,7 @@ const AboutCard = () => {
                 where I love turning complex logic into efficient solutions.
             </div>
             <br />
-            <div style={{textIndent: "2rem"}}>
-                Beyond software development, I am a firm believer in maintaining
-                a sharp mind and body.
-                <br />
-                When I'm not coding I love:
-            </div>
-
         </p>
-
-        <ul className="about-list">
-            <li><LuArrowBigRightDash /> Skiing</li>
-            <li><LuArrowBigRightDash /> Reading books</li>
-            <li><LuArrowBigRightDash /> Going to the gym</li>
-            <li><LuArrowBigRightDash /> Watching movies</li>
-        </ul>
     </Card>);
 }
 

@@ -9,60 +9,18 @@
     /* --- CHANGED VALUES BELOW --- */
     width: 90%;                  /* Takes up more screen width */
     max-width: 1300px;           /* Increased from 900px */
-    min-height: 60vh;            /* Forces box to be at least 60% of viewport height */
+    max-height: 500px;            /* Forces box to be at least 60% of viewport height */
     padding: 5rem 3rem;          /* Much more breathing room inside */
     font-size: 1.5rem;           /* Larger text */
     /* --------------------------- */
 
     margin: 3rem auto;
-    /*background: rgba(85, 102, 149, 0.81); !* semi-transparent box *!*/
-    /*border-radius: 30px;         !* Increased radius to match larger size *!*/
-    /*box-shadow: 0 8px 20px rgb(34, 54, 108); !* subtle shadow *!*/
+    border-radius: 30px;         /* Increased radius to match larger size */
+    box-shadow: 0 8px 20px rgba(197, 115, 230, 0.883); /* subtle shadow */
     flex-direction: column;
     text-align: left;
 }
 
 .about-container li {
     list-style: none;
-}
-
-.small-info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    line-height: 1.8;
-    margin-bottom: 2rem;
-    color: rgba(255,255,255,0.9);
-}
-
-.about-section {
-    margin-top: 0;
-}
-
-.rows-and-columns{
-    display: flex;
-}
-
-.picture {
-    max-width: 100%;
-    width: 400px;
-}
-
-.svg-col {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-}
-
-.about-list {
-    align-items: center;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;    /* Adds space between list items */
-    font-weight: 500;
-}
-
-.techstack, toolbox {
-    background: #4d4e53;
 }

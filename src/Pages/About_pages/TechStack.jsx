@@ -17,58 +17,64 @@ import hibernate from "../../assets/TechIcons/hibernate.svg";
 
 const TechStack = () => {
     return (
-        <Row className="techstack-row">
-            <Col xs={4} md={2} className="tech-icons">
-                <img src={Javascript} alt="javascript" className="tech-icon-images"/>
-                <div className="tech-icons-text">Javascript</div>
-            </Col>
+        <div>
+            <Row className="techstack-row">
+                <Col xs={4} md={2} className="tech-icons">
+                    <img src={Javascript} alt="javascript" className="tech-icon-images"/>
+                    <div className="tech-icons-text">Javascript</div>
+                </Col>
 
-            <Col xs={4} md={2} className="tech-icons">
-                <img src={hibernate} alt="hibernate" className="tech-icon-images"/>
-                <div className="tech-icons-text">Hibernate</div>
-            </Col>
+                <Col xs={4} md={2} className="tech-icons">
+                    <img src={hibernate} alt="hibernate" className="tech-icon-images"/>
+                    <div className="tech-icons-text">Hibernate</div>
+                </Col>
 
-            <Col xs={4} md={2} className="tech-icons">
-                <img src={Spring} alt="spring" className="tech-icon-images"/>
-                <div className="tech-icons-text">Spring</div>
-            </Col>
+                <Col xs={4} md={2} className="tech-icons">
+                    <img src={Spring} alt="spring" className="tech-icon-images"/>
+                    <div className="tech-icons-text">Spring</div>
+                </Col>
 
-            <Col xs={4} md={2} className="tech-icons">
-                <img src={Node} alt="node" className="tech-icon-images"/>
-                <div className="tech-icons-text">Node.Js</div>
-            </Col>
+                <Col xs={4} md={2} className="tech-icons">
+                    <img src={Node} alt="node" className="tech-icon-images"/>
+                    <div className="tech-icons-text">Node.Js</div>
+                </Col>
 
-            <Col xs={4} md={2} className="tech-icons">
-                <img src={Git} alt="git" className="tech-icon-images"/>
-                <div className="tech-icons-text">Git</div>
-            </Col>
+                <Col xs={4} md={2} className="tech-icons">
+                    <img src={Git} alt="git" className="tech-icon-images"/>
+                    <div className="tech-icons-text">Git</div>
+                </Col>
 
-            <Col xs={4} md={2} className="tech-icons">
-                <img src={Docker} alt="docker" className="tech-icon-images"/>
-                <div className="tech-icons-text">Docker</div>
-            </Col>
+                <Col xs={4} md={2} className="tech-icons">
+                    <img src={Docker} alt="docker" className="tech-icon-images"/>
+                    <div className="tech-icons-text">Docker</div>
+                </Col>
+            </Row>
 
-            <Col xs={4} md={2} className="tech-icons">
-                <img src={SQL} alt="SQL" className="tech-icon-images"/>
-                <div className="tech-icons-text">MySQL</div>
-            </Col>
+            <Row className="techstack-row">
 
-            <Col xs={4} md={2} className="tech-icons">
-                <img src={Java} alt="haskell" className="tech-icon-images"/>
-                <div className="tech-icons-text">Java</div>
-            </Col>
+                <Col xs={4} md={2} className="tech-icons">
+                    <img src={SQL} alt="SQL" className="tech-icon-images"/>
+                    <div className="tech-icons-text">MySQL</div>
+                </Col>
 
-            <Col xs={4} md={2} className="tech-icons">
-                <img src={Postman} alt="Postman" className="tech-icon-images"/>
-                <div className="tech-icons-text">Postman</div>
-            </Col>
+                <Col xs={4} md={2} className="tech-icons">
+                    <img src={Java} alt="haskell" className="tech-icon-images"/>
+                    <div className="tech-icons-text">Java</div>
+                </Col>
 
-            <Col xs={4} md={2} className="tech-icons">
-                <img src={AWS} alt="Postman" className="tech-icon-images" />
-                <div className="tech-icons-text">AWS</div>
-            </Col>
+                <Col xs={4} md={2} className="tech-icons">
+                    <img src={Postman} alt="Postman" className="tech-icon-images"/>
+                    <div className="tech-icons-text">Postman</div>
+                </Col>
 
-        </Row>
+                <Col xs={4} md={2} className="tech-icons">
+                    <img src={AWS} alt="Postman" className="tech-icon-images" />
+                    <div className="tech-icons-text">AWS</div>
+                </Col>
+
+            </Row>
+        </div>
+
     );
 }
 

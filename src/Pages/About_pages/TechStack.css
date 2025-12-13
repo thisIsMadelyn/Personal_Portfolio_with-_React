@@ -3,19 +3,25 @@
     align-self: center !important;
     justify-content: center !important;
     font-size: 1rem !important;
-    margin: 15px !important;
     padding: 10px 20px !important;
     opacity: 0.93 !important;
-    outline: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+    outline: 1px solid rgba(200, 137, 230, 0.637) !important;
     vertical-align: middle !important;
     text-align: center !important;
     border-radius: 24px !important;
-    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+
+    box-shadow: 0 8px 20px rgba(197, 115, 230, 0.883);
     overflow: hidden !important;
     width: fit-content !important;
     cursor: pointer !important;
     transition: outline-color 0.3s, outline-width 0.3s, transform 0.3s;
     color: white;
+
+    margin-top: 25px; /* ADJUST THIS VALUE until the chopping stops */
+
+    /* Ensure the z-index fix is still active, just in case */
+    position: relative;
+    z-index: 100;
 }
 
 .tech-icons-text {
@@ -34,7 +40,7 @@
 .tech-icons:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    outline: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+    outline: 2px solid rgba(197, 115, 230, 0.883) !important;
 }
 
 .tech-icon-images {

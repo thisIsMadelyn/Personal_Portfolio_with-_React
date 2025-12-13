@@ -5,11 +5,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/navbar/Navbar.jsx';
 import Home from './Pages/Home_pages/Home.jsx';
 import About from './Pages/About_pages/About.jsx';
-import Projects from './Pages/Projects.jsx';
-import Contact from './Pages/Contact.jsx';
+import Projects from './Pages/Portfolio_pages/Projects.jsx';
+import Contact from './Pages/Contact_pages/Contact.jsx';
 import Footer from './Components/footer/Footer.jsx';
 
-import bgImage from './assets/wallpaper_two.jpeg';
+import bgImage from './assets/wallpaper_3.jpg';
 
 
 function App() {
