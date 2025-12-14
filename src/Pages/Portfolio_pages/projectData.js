@@ -10,7 +10,7 @@ const myProjects = [{
 
     // CORRECT: Assign the imported variable directly (no curly braces)
     imageUrl: eCommerceLite,
-    techStack: ["Java", "Spring Boot", "MySQL", "Docker", "PostMan"],
+    techStack: ["Java", "Spring Boot", "MySQL", "Maven", "PostMan"],
     detailsLink: "/projects/ecommerce-lite",
     liveDemoLink: null,
     githubLink: "https://github.com/thisIsMadelyn/E-commerce-Lite"

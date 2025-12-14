@@ -11,7 +11,7 @@ const About = () => {
         <div className="about-section">
             <Row className="rows-and-columns">
                 <Col>
-                    <div className="small-info">
+                    <div className="about-me-intro">
                         <p>A little info <span className="to-change-color"> about me</span> </p>
 
                     </div>

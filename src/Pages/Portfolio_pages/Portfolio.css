@@ -1,10 +1,11 @@
 .projects-section {
     position: relative;
-    padding-top: 50px;
+    padding-top: 100px;
     margin-top: 30px;
 }
 
 .section-title {
+    padding-top: 40px;
     position: absolute;
     z-index: 10;
     top: -20px;
@@ -21,6 +22,6 @@
      align-items: center;
      column-gap: 4rem;
      width: 1000px;
-    margin: auto;
+     margin: auto;
  }
 
