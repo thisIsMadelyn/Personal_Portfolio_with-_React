@@ -7,38 +7,74 @@ File Structure
 ```angular2html
 my-portfolio/
 ├── public/
-│   ├── favicon.ico
-│   └── resume.pdf           # Keep downloadable assets here
+│   └── vite.svg             # Keep downloadable assets here
 ├── src/
 │   ├── assets/              # Static assets imported in components
-│   │   ├── images/
-│   │   │   ├── hero-bg.jpg
-│   │   │   └── profile.png
-│   │   └── icons/
-│   ├── components/          # Reusable UI parts (non-page specific)
-│   │   ├── Navbar.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Button.jsx
-│   │   └── ProjectCard.jsx
-│   ├── data/                # JSON/JS files for content (Avoid hardcoding text)
-│   │   ├── projects.js      # Array of project objects
-│   │   ├── experience.js    # Work history data
-│   │   └── socialLinks.js
-│   ├── hooks/               # Custom React hooks
-│   │   └── useScroll.js
-│   ├── layouts/             # Page wrappers
-│   │   └── MainLayout.jsx   # Contains Navbar and Footer
+│   │   ├── project_pics/
+│   │   │   └── e_commerce_lite.png
+│   │   ├── social/
+│   │   │   ├── linkedin_2.svg
+│   │   │   └── github_2.svg
+│   │   ├── TechIcons/
+│   │   │   ├── AWS.svg
+│   │   │   ├── Docker.svg
+│   │   │   ├── Git.svg
+│   │   │   ├── Hibernate.svg
+│   │   │   ├── Java.svg
+│   │   │   ├── Javascript.svg
+│   │   │   ├── mysql.svg
+│   │   │   ├── Node.svg
+│   │   │   ├── Postman.svg
+│   │   │   └── Spring.svg
+│   │   ├── ToolBox/
+│   │   │   ├── eclipse.svg
+│   │   │   ├── intellij.svg
+│   │   │   ├── vscode.svg
+│   │   │   └── webstorm.svg
+│   │   ├── cat.svg
+│   │   ├── computer.svg
+│   │   ├── computer2.svg
+│   │   ├── profilepic.jpg
+│   │   └── wallpaper_3.jpg
+│   ├── components/
+│   │   ├── footer/
+│   │   │   ├── Footer.jsx
+│   │   │   └── FooterStyle.css
+│   │   ├── navbar/
+│   │   │   ├── Navbar.jsx
+│   │   │   └── NavStyle.css
 │   ├── pages/               # Main routable pages
-│   │   ├── Home.jsx
-│   │   ├── About.jsx
-│   │   ├── Projects.jsx
-│   │   └── Contact.jsx
+│   │   ├── About_pages/
+│   │   │   ├── About.css
+│   │   │   ├── About.jsx
+│   │   │   ├── AboutCard.css
+│   │   │   ├── AboutCArd.jsx
+│   │   │   ├── TechStack.css
+│   │   │   ├── TechStack.jsx
+│   │   │   └── ToolBox.jsx
+│   │   ├── Contact_pages/
+│   │   │   ├── Contact.css
+│   │   │   └── Contact.jsx
+│   │   ├── Home/
+│   │   │   ├── Home.css
+│   │   │   └── Home.jsx
+│   │   └── Portfolio_pages/
+│   │   │   │   └── Project_modal/
+│   │   │   │       ├── DetailedCaseStudies.js
+│   │   │   │       ├── ProjectModal.css
+│   │   │   │       └── ProjectModal.jsx
+│   │   │   │   └── ProjectCard/
+│   │   │   │       ├── ProjectCard.css
+│   │   │   │       └── ProjectCard.jsx
+│   │   │   ├── Portfolio.css
+│   │   │   ├── projectData.js
+│   │   │   └── Projects.jsx
 │   ├── styles/              # Global styles or variables
 │   │   ├── globals.css
-│   │   └── variables.css    # Colors, fonts (if using pure CSS)
-│   ├── utils/               # Helper functions
-│   │   └── formatDate.js
-│   ├── App.jsx              # Routing setup
+│   │   └── variables.css   
+│   ├── App.css              # Routing setup
+│   ├── App.jsx
+│   ├── index.css
 │   └── main.jsx             # Entry point
 ├── .gitignore
 ├── package.json

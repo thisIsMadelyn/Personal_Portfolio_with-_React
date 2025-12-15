@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ProjectCard from './ProjectCard';
+import ProjectCard from './ProjectCard/ProjectCard.jsx';
 import ProjectModal from './Project_modal/ProjectModal';
 import { Row, Col } from 'react-bootstrap';
 import projectData from './projectData.js';
